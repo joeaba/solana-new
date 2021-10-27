@@ -29,6 +29,7 @@ jobs:
         
       - name: cmd
         run : |
+            sudo chmod -R a+rwx .travis
             .travis/export-github-repo.sh web3.js/ solana-web3.js
             
   macos-artifacts:
