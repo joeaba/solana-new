@@ -47,6 +47,8 @@ jobs:
           rust-version: stable
       - name:  release artifact
         run: |
+           sudo chmod -R a+rwx ci
+           sudo chmod -R a+rwx scripts
            source ci/rust-version.sh
            brew install coreutils
            export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
