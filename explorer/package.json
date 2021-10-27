@@ -5,7 +5,7 @@
   "dependencies": {
     "@metamask/jazzicon": "^2.0.0",
     "@project-serum/serum": "^0.13.34",
-    "@react-hook/debounce": "^3.0.0",
+    "@react-hook/debounce": "^4.0.0",
     "@sentry/react": "^6.3.1",
     "@solana/spl-token-registry": "^0.2.62",
     "@solana/web3.js": "^1.7.0",
